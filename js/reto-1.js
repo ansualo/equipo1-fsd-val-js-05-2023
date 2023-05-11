@@ -5,3 +5,11 @@ const longitud = (lista)=>{
 };
 
 console.log(longitud(letras));
+
+function obtenerNumeroRandom(max) {
+  return Math.floor( Math.random() * max );
+}
+
+let longitudDeLetras = longitud(letras);
+let randomIndex = obtenerNumeroRandom(longitudDeLetras);
+console.log(letras[randomIndex]);

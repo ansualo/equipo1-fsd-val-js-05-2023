@@ -1,5 +1,5 @@
-11. Utiliza el objeto del ejercicio anterior y mediante desestructuración accede únicamente a
-tres de esas propiedades.
+// 11. Utiliza el objeto del ejercicio anterior y mediante desestructuración accede únicamente a
+// tres de esas propiedades.
 
 let persona = {
     nombre:"",
@@ -13,10 +13,9 @@ persona.apellido = prompt("Escribe tu apellido");
 persona.edad = prompt("Escribe tu edad");
 persona.pais = prompt("Escribe tu pais");
 
-console.log(persona)
+console.log(persona);
 
-
-const obtenerNombreCompleto = ({ nombre, apellido, edad })=>{
+const obtenerNombreCompleto = ({ nombre, apellido, edad }) => {
     return nombre + ' ' + apellido + ' ' + edad;
 };
 

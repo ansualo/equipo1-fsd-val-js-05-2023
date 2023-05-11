@@ -1,12 +1,11 @@
-// 10. Crea un objeto que almacene los datos de una persona (nombre, apellidos, edad,
-// dirección, ciudad, país... y lo que quieras). Crea una función que saque por consola el
-// nombre completo (nombre y apellidos) de la persona a modo de string.
+11. Utiliza el objeto del ejercicio anterior y mediante desestructuración accede únicamente a
+tres de esas propiedades.
 
 let persona = {
-  nombre:"",
-  apellido:"",
-  edad: "",
-  pais:""
+    nombre:"",
+    apellido:"",
+    edad: "",
+    pais:""
 };
 
 persona.nombre = prompt("Escribe tu nombre");
@@ -17,10 +16,8 @@ persona.pais = prompt("Escribe tu pais");
 console.log(persona)
 
 
-const obtenerNombreCompleto = (datosPersona)=>{
-  let nombre = datosPersona.nombre;
-  let apellido = datosPersona.apellido;
-  return nombre + ' ' + apellido;
+const obtenerNombreCompleto = ({ nombre, apellido, edad })=>{
+    return nombre + ' ' + apellido + ' ' + edad;
 };
 
 

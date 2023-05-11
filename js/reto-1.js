@@ -1,4 +1,3 @@
-
 let letras = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
 
 const longitud = (lista)=>{
@@ -6,4 +5,3 @@ const longitud = (lista)=>{
 };
 
 console.log(longitud(letras));
-

@@ -11,4 +11,6 @@ const obtenerNumeroRandom = (max)=>{
    return Math.floor(Math.random() * max);
 };
 
-console.log(letras[obtenerNumeroRandom(longitud(letras))])
+let longitudDeLetras = longitud(letras);
+let randomIndex = obtenerNumeroRandom(longitudDeLetras);
+console.log(letras[randomIndex]);

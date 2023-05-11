@@ -5,3 +5,8 @@ const longitud = (lista)=>{
 };
 
 console.log(longitud(letras));
+
+const obtenerRandom = (max)=>{
+    return Math.random;
+    
+}

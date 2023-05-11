@@ -1,5 +1,5 @@
-11. Utiliza el objeto del ejercicio anterior y mediante desestructuración accede únicamente a
-tres de esas propiedades.
+// 11. Utiliza el objeto del ejercicio anterior y mediante desestructuración accede únicamente a
+// tres de esas propiedades.
 
 let persona = {
     nombre:"",

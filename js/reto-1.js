@@ -6,3 +6,4 @@ const longitud = (lista)=>{
 };
 
 console.log(longitud(letras));
+
